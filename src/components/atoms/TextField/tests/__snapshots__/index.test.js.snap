@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  position: relative;
+}
+
+.c1 {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  height: 48px;
+  left: 0;
+  outline: none;
+  padding: 0 15px;
+  position: relative;
+  width: 100%;
+}
+
+.c2 {
+  background-color: #f7f7f7;
+  bottom: 0;
+  height: 0%;
+  left: 0;
+  position: absolute;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  z-index: -1;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    readOnly={false}
+    value="value"
+  />
+  <div
+    className="c2"
+  />
+</div>
+`;

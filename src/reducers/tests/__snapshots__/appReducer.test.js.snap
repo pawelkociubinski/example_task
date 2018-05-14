@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`appReducer should handle CHANGE_PAGE 1`] = `
+Object {
+  "currentPage": 1,
+  "itemsPerPage": 2,
+  "orderBy": "desc",
+  "searchedTerm": "",
+  "sortByProperty": "id",
+}
+`;
+
+exports[`appReducer should handle CHANGE_SEARCHED_TERM 1`] = `
+Object {
+  "currentPage": 0,
+  "itemsPerPage": 2,
+  "orderBy": "desc",
+  "searchedTerm": "react",
+  "sortByProperty": "id",
+}
+`;
+
+exports[`appReducer should handle NEXT_PAGE 1`] = `
+Object {
+  "currentPage": 1,
+  "itemsPerPage": 2,
+  "orderBy": "desc",
+  "searchedTerm": "",
+  "sortByProperty": "id",
+}
+`;
+
+exports[`appReducer should handle PREVIOUS_PAGE 1`] = `
+Object {
+  "currentPage": -1,
+  "itemsPerPage": 2,
+  "orderBy": "desc",
+  "searchedTerm": "",
+  "sortByProperty": "id",
+}
+`;
+
+exports[`appReducer should handle SORT_COLUMN_BY_ORDER 1`] = `
+Object {
+  "currentPage": 0,
+  "itemsPerPage": 2,
+  "orderBy": "asc",
+  "searchedTerm": "",
+  "sortByProperty": "name",
+}
+`;
+
+exports[`appReducer should handle SORT_ITEMS_PER_PAGE 1`] = `
+Object {
+  "currentPage": 0,
+  "itemsPerPage": 20,
+  "orderBy": "desc",
+  "searchedTerm": "",
+  "sortByProperty": "id",
+}
+`;
+
+exports[`appReducer should return initial state 1`] = `
+Object {
+  "currentPage": 0,
+  "itemsPerPage": 2,
+  "orderBy": "desc",
+  "searchedTerm": "",
+  "sortByProperty": "id",
+}
+`;

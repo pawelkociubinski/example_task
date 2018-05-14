@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField /> renders correctly 1`] = `
+<styled.div>
+  <styled.div
+    lifted={true}
+  >
+    <Label
+      theme="active"
+    >
+      label
+    </Label>
+  </styled.div>
+  <TextField
+    active={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    readOnly={false}
+    theme="neutral"
+    value="value"
+  />
+</styled.div>
+`;

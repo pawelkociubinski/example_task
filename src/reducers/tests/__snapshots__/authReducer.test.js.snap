@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authReducer should handle FETCH_GITHUB_TOKEN_FAILED 1`] = `
+Object {
+  "error": true,
+  "inProgress": false,
+  "token": null,
+}
+`;
+
+exports[`authReducer should handle FETCH_GITHUB_TOKEN_FINISHED 1`] = `
+Object {
+  "error": false,
+  "inProgress": false,
+  "token": null,
+}
+`;
+
+exports[`authReducer should handle FETCH_GITHUB_TOKEN_STARTED 1`] = `
+Object {
+  "error": false,
+  "inProgress": true,
+  "token": null,
+}
+`;
+
+exports[`authReducer should handle FETCH_GITHUB_TOKEN_SUCCEEDED 1`] = `
+Object {
+  "error": false,
+  "inProgress": false,
+  "token": "token",
+}
+`;
+
+exports[`authReducer should return initial state 1`] = `
+Object {
+  "error": false,
+  "inProgress": false,
+  "token": null,
+}
+`;

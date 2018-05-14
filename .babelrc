@@ -1,0 +1,11 @@
+{
+  "presets": [["env", { "modules": false }], "react", "stage-0", "flow"],
+  "env": {
+    "test": {
+      "presets": [["env"], "react", "stage-0"]
+    },
+    "development": {
+      "plugins": ["babel-plugin-styled-components"]
+    }
+  }
+}

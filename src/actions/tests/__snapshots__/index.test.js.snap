@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Action Creators changePage 1`] = `
+Object {
+  "payload": Object {
+    "page": 1,
+  },
+  "type": "CHANGE_PAGE",
+}
+`;
+
+exports[`Action Creators getGithubToken 1`] = `
+Object {
+  "payload": Object {
+    "code": "github_code",
+  },
+  "type": "GITHUB_TOKEN_REQUESTED",
+}
+`;
+
+exports[`Action Creators nextPage 1`] = `
+Object {
+  "type": "NEXT_PAGE",
+}
+`;
+
+exports[`Action Creators previousPage 1`] = `
+Object {
+  "type": "PREVIOUS_PAGE",
+}
+`;
+
+exports[`Action Creators searchTerm 1`] = `
+Object {
+  "payload": Object {
+    "searchedTerm": "react",
+  },
+  "type": "SEARCH_TERM_REQUESTED",
+}
+`;
+
+exports[`Action Creators sortByColumn 1`] = `
+Object {
+  "payload": Object {
+    "orderBy": "asc",
+    "sortByProperty": "id",
+  },
+  "type": "SORT_COLUMN_BY_ORDER",
+}
+`;
+
+exports[`Action Creators sortItemsPerPage 1`] = `
+Object {
+  "payload": Object {
+    "itemsPerPage": 1,
+  },
+  "type": "SORT_ITEMS_PER_PAGE",
+}
+`;

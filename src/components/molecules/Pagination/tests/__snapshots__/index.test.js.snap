@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> renders correctly 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #DDDDDD;
+  color: #707070;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 48px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  border-radius: 24px;
+  padding: 0;
+  width: 48px;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: #707070;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 48px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  border-radius: 24px;
+  padding: 0;
+  width: 48px;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.c5 {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={undefined}
+  >
+    <svg
+      className=""
+      height={16}
+      viewBox="0 0 40 40"
+      width={16}
+    >
+      <path
+        d="m26.5 12.1q0 0.3-0.2 0.6l-8.8 8.7 8.8 8.8q0.2 0.2 0.2 0.5t-0.2 0.5l-1.1 1.1q-0.3 0.3-0.6 0.3t-0.5-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c2"
+  >
+    <button
+      className="c3"
+      onClick={[Function]}
+    >
+      1
+    </button>
+  </div>
+  <div
+    className="c2"
+  >
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      2
+    </button>
+  </div>
+  <div
+    className="c2"
+  >
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      3
+    </button>
+  </div>
+  <div
+    className="c2"
+  >
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      4
+    </button>
+  </div>
+  <div
+    className="c2"
+  >
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      5
+    </button>
+  </div>
+  <div
+    className="c5"
+    onClick={[MockFunction]}
+  >
+    <svg
+      className=""
+      height={16}
+      viewBox="0 0 40 40"
+      width={16}
+    >
+      <path
+        d="m26.3 21.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.6 0.3t-0.5-0.3l-1.1-1.1q-0.2-0.2-0.2-0.5t0.2-0.5l8.8-8.8-8.8-8.7q-0.2-0.3-0.2-0.6t0.2-0.5l1.1-1.1q0.3-0.2 0.5-0.2t0.6 0.2l10.4 10.4q0.2 0.2 0.2 0.5z"
+      />
+    </svg>
+  </div>
+</div>
+`;
